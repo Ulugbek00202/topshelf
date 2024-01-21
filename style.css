@@ -13,6 +13,16 @@
     font-family: 'Lexend', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
 .sale {
     width: 100%;
     height: 37px;
@@ -55,6 +65,7 @@
 
 .head_search input {
     border: none;
+    outline: none;
 }
 
 .head_search button {
@@ -504,4 +515,626 @@ nav ul li a {
     font-weight: 300;
     color: rgba(157, 158, 162, 1);
     margin: 71px 0 0 0;
+}
+
+
+
+.weeds {
+    padding: 50px 0 300px 0;
+    position: relative;
+}
+
+.weeds_title {
+    font-size: 64px;
+    font-weight: 600;
+    color: rgba(26, 30, 38, 1);
+}
+
+.weeds_item {
+    width: 938px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 0 0 0;
+}
+
+.weeds_item h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(26, 30, 38, 1);
+}
+
+.weeds_item button {
+    max-width: 153px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid rgba(244, 244, 244, 1);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(26, 30, 38, 1);
+    padding: 12px 20px;
+}
+
+
+.weeds_item button:hover {
+    border: 1px solid rgba(5, 66, 44, 1);
+    color: rgba(5, 66, 44, 1);
+}
+
+.weed_content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 64px 0 0 0;
+    gap: 32px;
+}
+
+.card3 {
+    max-width: 276px;
+}
+
+
+.friends {
+    padding: 50px 0;
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.friends_content {
+
+    padding: 96px 120px;
+    background-color: rgba(52, 102, 84, 1);
+    border-radius: 24px;
+}
+
+.friends_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friends_content_title h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -4px;
+}
+
+.friends_content_title h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin: 32px 0 0 0;
+    letter-spacing: -0.5px;
+}
+
+.friends_content_title h2 span {
+    color: rgba(242, 188, 27, 1);
+    letter-spacing: -1.5px;
+}
+
+.friends_content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 64px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(23, 175, 38, 1);
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.weed_pay {
+    padding: 250px 0 70px 0;
+    background-color: rgba(1, 16, 11, 1);
+}
+
+.weed_pay_title {
+    max-width: 948px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.weed_pay_title h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 70.4px;
+    letter-spacing: -4px;
+}
+
+.weed_pay_title p {
+    max-width: 790px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(157, 158, 162, 1);
+    line-height: 24px;
+    margin: 24px auto 0;
+}
+
+
+.weed_pay_content {
+    display: flex;
+    align-items: center;
+    margin: 73px 0 0 0;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.weed_pay_content_item {
+    max-width: 548px;
+    text-align: center;
+    position: relative;
+}
+
+.weed_pay_content_item h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin: 24px 0 0 0;
+}
+
+.weed_pay_content_item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(157, 158, 162, 1);
+    margin: 24px 0 0 0;
+}
+
+.weed_image {
+    position: absolute;
+    top: 0;
+    left: 140px;
+}
+
+
+.weed_pay_button {
+    width: 260px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(23, 175, 38, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 100px auto 0;
+}
+
+
+
+.canada {
+    padding: 70px 0;
+}
+
+.canada_title {
+    max-width: 789px;
+}
+
+.canada_title h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: rgba(26, 30, 38, 1);
+    letter-spacing: -4px;
+}
+
+.canada_title h1 span {
+    color: rgba(242, 188, 27, 1);
+}
+
+.canada_title p {
+    margin: 24px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(113, 115, 120, 1);
+}
+
+.canada_content {
+    margin: 64px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.canada_content_item {
+    max-width: 379px;
+    padding: 32px;
+    border: 1px solid rgba(206, 207, 213, 0.4);
+}
+
+.canada_content_item h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(26, 30, 38, 1);
+    margin: 32px 0 0 0;
+}
+
+.canada_content_item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(113, 115, 120, 1);
+    margin: 16px 0 0 0;
+    line-height: 21px;
+}
+
+
+
+.product {
+    padding: 50px 0;
+}
+
+.product_title {
+    font-size: 64px;
+    font-weight: 600;
+    color: rgba(6, 7, 9, 1);
+    letter-spacing: -4px;
+}
+
+.produkt_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produkt_item a {
+    margin: 70px 0 0 0;
+    color: rgba(23, 175, 38, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+.flowers {
+    padding: 50px 0;
+    border-top: 1px solid rgba(113, 115, 120, 1);
+}
+
+.flowers_content {
+    display: flex;
+    gap: 30px;
+}
+
+.flowers_content_item {
+    margin: 64px 0 0 0;
+    padding: 32px;
+    max-width: 379px;
+}
+
+.flowers_content_item span {
+    max-width: 315px;
+    height: 240px;
+    background-color: rgb(242,246,244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flowers_content_item h1 {
+    margin: 32px 0 0 0;
+    font-size: 32px;
+    font-family: 600;
+    color: rgba(26, 30, 38, 1);
+    letter-spacing: -1.5px;
+}
+
+.flowers_content_item p {
+    margin: 16px 0 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(113, 115, 120, 1);
+    line-height: 21px;
+}
+
+.flowers_content_item a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(23, 175, 38, 1);
+    text-decoration: underline;
+    margin: 32px 0 0 0;
+    display: block;
+}
+
+
+
+.weed_education {
+    padding: 50px 0;
+    position: relative;
+}
+
+.weed_education_title {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(200, 201, 203, 1);
+}
+
+
+.weed_education_title h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(26, 30, 38, 1);
+    letter-spacing: -1.5px;
+}
+
+.weed_education_title a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(23, 175, 38, 1);
+    text-decoration: underline;
+}
+
+.weed_education_content {
+    margin: 64px 0 0 0;
+    display: flex;
+    gap: 30px;
+}
+
+.weed_education_content_item {
+    max-width: 379px;
+}
+
+.weed_education_content_item p {
+    margin: 24px 0 0 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(113, 115, 120, 1);
+}
+
+.weed_education_content_item h1 {
+    margin: 8px 0 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(26, 30, 38, 1);
+    letter-spacing: -0.5px;
+    line-height: 36px;
+}
+
+.weed_education_content_item h5 {
+    margin: 8px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(113, 115, 120, 1);
+    line-height: 24px;
+}
+
+.weed_education_content_item a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(23, 175, 38, 1);
+    display: block;
+    margin: 32px 0 0 0;
+    text-decoration: underline;
+}
+
+.weed_education_email {
+    width: 1200px;
+    height: 458px;
+    background-color: rgba(5, 66, 44, 1);
+    border-radius: 24px;
+    padding: 64px;
+    position: absolute;
+    bottom: -500px;
+}
+
+.weed_education_email h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    width: 789px;
+    letter-spacing: -4px;
+    line-height: 70.4px;
+}
+
+.weed_education_email p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(195, 210, 204, 1);
+    margin: 24px 0 0 0;
+}
+
+.weed_education_email_border {
+    width: 1072px;
+    border: 1px solid rgba(52, 102, 84, 1);
+    margin: 32px 0 0 0;
+}
+
+.weed_education_email_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 0 0 0;
+}
+
+.weed_education_email_content input {
+    width: 835px;
+    padding: 24px 0 24px 44px;
+    border: 1px solid rgba(52, 102, 84, 1);
+    border-radius: 100px;
+    background: none;
+    outline: none;
+    color: #fff;
+}
+
+.weed_education_email_content button {
+    width: 205px;
+    height: 72px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(23, 175, 38, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+footer {
+    background: linear-gradient(180deg, #1A1E26 0%, #01100B 100%);
+    margin: 280px 0 0;
+    padding: 380px 120px 64px 120px;
+}
+
+.footer_content {
+    display: flex;
+
+}
+
+.footer_item {
+    width: 379px
+}
+
+.footer_item p {
+    width: 276px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(157, 158, 162, 1);
+    line-height: 24px;
+    margin: 24px 0 0 0;
+}
+
+
+.footer_content_info {
+    width: 789px;
+}
+
+.footer_content_info_link {
+
+}
+
+.footer_content_info_link h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer_content_info_link_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_content_info_link_text ul {
+    width: 379px;
+    margin: 24px 0 0 0;
+}
+
+.footer_content_info_link_text ul li {
+    margin: 16px 0 0 0;
+}
+
+.footer_content_info_link_text ul li a {
+    color: rgba(157, 158, 162, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.footer_content_info_contact {
+    margin: 40px 0 0 0;
+}
+
+.footer_content_info_contact h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer_content_info_contact p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(157, 158, 162, 1);
+    margin: 24px 0 0 0;
+}
+
+
+
+
+.footer_content_info_more {
+    margin: 40px 0 0 0;
+}
+
+.footer_content_info_more h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer_content_info_more_ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_content_info_more_ul ul {
+    width: 379px;
+    margin: 24px 0 0 0;
+}
+
+.footer_content_info_more_ul ul li {
+    margin: 16px 0 0 0;
+}
+
+.footer_content_info_more_ul ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(157, 158, 162, 1);
+}
+
+.footer_content_info_card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 40px 0 0 0;
+}
+
+.footer_content_info_card a {
+    width: 56px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+
+
+.foot_end {
+    margin: 64px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(70, 73, 79, 1);
+}
+
+.foot_end h1 {
+    margin: 41.5px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(113, 115, 120, 1);
+}
+
+.foot_end_item {
+    margin: 41.5px 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.foot_end_item h2, h3, h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(157, 158, 162, 1);
 }
